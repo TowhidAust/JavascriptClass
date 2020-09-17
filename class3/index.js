@@ -14,10 +14,10 @@ document.write("this is document write");
 // let const var
 
 // declare multiple variable 
-let a, b, c;
+// let a, b, c;
 
-let x, y, z;
-x = y + z; // statement
+// let x, y, z;
+// x = y + z; // statement
 
 
 // let a;
@@ -108,6 +108,68 @@ function onMouseOver() {
     document.getElementById("onMouseH3").innerHTML = "lekha changed"
     document.getElementById("onMouseH3").style.backgroundColor = "red";
 }
+
+// onKeyDown
+function onKeyDownTest() {
+    alert("Key pressed");
+}
+
+function onloadFunction() {
+    alert("Page is loaded");
+}
+
+// condition
+// if else condition
+let x = 30;
+let y = 10;
+
+if (y<x) {
+    // statement true
+    console.log("Y is greater than x");
+} else {
+    // statement
+    console.log("Y is less than x");
+}
+
+// nested if else
+// if x>y please add those two number; after that check if that number is less than 50
+if (x > y) {
+    console.log("x is greater than y");
+    let result = x + y;
+    console.log(result);
+
+    if (result<50) {
+        console.log("this added result number is greater than 50")
+    } else {
+        console.log("this added reslt number is greater than 50");
+    }
+} else if (y > x) {
+    console.log("y is greater than x");
+} else {
+    console.log("error happens.");
+}
+
+
+// loop for loop
+// do while loop
+// while loop
+// for each loop
+
+console.log("entering into for loop");
+// Array
+let arr = ["Alamin", "Rahim", "Karim"];
+for (let i = 0; i < arr.length; i++){
+    // console.log("loop test", i);
+    let listedArrNames = arr[i];
+    console.log("Print index names", listedArrNames);
+}
+
+// Homework: =>
+// Define an array with 6 integer number;
+// Arr[0,1,2,3,4,5];
+// check if the number is greater than 0; then add the rest of the numbers;
+// output: 1+2+3+4+5 = 15;
+
 
 
 
