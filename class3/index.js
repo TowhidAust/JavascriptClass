@@ -173,6 +173,98 @@ for (let i = 0; i < arr.length; i++){
 
 
 
+// if else check
+let array = [1, 2, 3, 4, 5, 6];
+let sum = 0;
 
+if (array[0] > 0) {
+    for (let i = 1; i < array.length; i++){
+        sum = sum + array[i];
+    }
+    console.log("the result is =", sum);
+}else{
+    console.log("cant add ");
+}
+
+// switch statement
+
+console.log("Date Object day", new Date().getDay());
+let testArrDate = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+let day;
+switch (new Date().getDay()) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+        break;
+    
+}
+
+document.getElementById("today").innerHTML = day;
+
+
+// create this one with if else condition
+// var text = "";
+let p = 0;
+while (p < 10) {
+    // text += "<br>The number is " + p;
+    console.log("=====");
+    console.log("while loop less than 10", p);
+  p++;
+}
+// Homework
+
+
+
+let p1=0;
+do {
+    // ki kormu
+    console.log("numbers less than 10 in do while loop", p1);
+    p1++;
+} while (p1 < 10);
+
+
+
+
+// console.log("while loop", text);
+
+// document.getElementById("demo").innerHTML = text;
+
+
+// object datatype 
+// JSON = javascript object notation
+let json = {
+    name: "xunayed",
+    email: "email@gmail.com",
+    password: "abcd",
+}
+
+
+for (let x in json) {
+    console.log("json objects",json[x]);
+}
+
+
+let array_1 = ["Xunayed", "e@gmail.com", "abcd"];
+for (let j in array_1) {
+    console.log("array shortcut in for loop", array_1[j]);
+}
 
 
