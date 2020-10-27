@@ -85,8 +85,12 @@ console.log("get full year==", getFullYear);
 
 
 // SET to date object
+// setMonth() 
+// setDate()
+// setHours()
+// setMinutes()
+// setSeconds()
 let todayObj = new Date();
-
 todayObj.setFullYear(2019);
 console.log('set to date object check', todayObj);
 
